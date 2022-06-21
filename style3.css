@@ -1,0 +1,22 @@
+body {
+  background-image: url("https://static7.depositphotos.com/1016824/749/i/600/depositphotos_7497942-stock-photo-dark-brown-plank-wood-wall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.big.number {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
