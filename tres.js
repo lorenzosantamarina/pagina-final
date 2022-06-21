@@ -16,6 +16,13 @@ function countTimer() {
   hours.innerHTML = hoursCalc;
   mins.innerHTML = minsCalc;
   seconds.innerHTML = secondsCalc;
+  if (totalSeconds<=0) {
+    document.querySelector("#days").innerText = 0;
+    document.querySelector("#hours").innerText = 0;
+    document.querySelector("#mins").innerText = 0;
+    document.querySelector("#seconds").innerText = 0;
+    document.querySelector(".statuscontador").innerText = "A comprar!";
+  }
 }
 countTimer();
 setInterval(countTimer, 1000);
