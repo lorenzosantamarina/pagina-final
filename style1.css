@@ -51,6 +51,9 @@ header {
   color: #000;
   background-color: #fff;
 }
+.imagen-inf{
+  width: 100%
+}
 .logo {
   width: 100%;
 }
