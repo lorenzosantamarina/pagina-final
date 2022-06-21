@@ -16,7 +16,7 @@ function countTimer() {
   hours.innerHTML = hoursCalc;
   mins.innerHTML = minsCalc;
   seconds.innerHTML = secondsCalc;
-  if (totalSeconds<=0) {
+  if (totalSeconds <= 0) {
     document.querySelector("#days").innerText = 0;
     document.querySelector("#hours").innerText = 0;
     document.querySelector("#mins").innerText = 0;
